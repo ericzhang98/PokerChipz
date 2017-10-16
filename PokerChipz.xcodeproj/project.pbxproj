@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F64A6B291E260CBA007327C4 /* AdjustController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64A6B281E260CBA007327C4 /* AdjustController.swift */; };
+		F64B5EFF1E134C0D004B6CDB /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B5EFE1E134C0D004B6CDB /* GameController.swift */; };
+		F64B5F011E136C02004B6CDB /* GamePlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64B5F001E136C02004B6CDB /* GamePlayerCell.swift */; };
 		F6958EF41E11378D0042BE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958EF31E11378D0042BE02 /* AppDelegate.swift */; };
 		F6958EF61E11378D0042BE02 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958EF51E11378D0042BE02 /* ViewController.swift */; };
 		F6958EF91E11378D0042BE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6958EF71E11378D0042BE02 /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		F6958EFE1E11378D0042BE02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6958EFC1E11378D0042BE02 /* LaunchScreen.storyboard */; };
 		F6958F091E11378D0042BE02 /* PokerChipzTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958F081E11378D0042BE02 /* PokerChipzTests.swift */; };
 		F6958F141E11378D0042BE02 /* PokerChipzUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958F131E11378D0042BE02 /* PokerChipzUITests.swift */; };
+		F6958F221E1138C90042BE02 /* CreateGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958F211E1138C90042BE02 /* CreateGameController.swift */; };
+		F6958F241E1138D40042BE02 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958F231E1138D40042BE02 /* Game.swift */; };
+		F6958F261E1138DF0042BE02 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958F251E1138DF0042BE02 /* Player.swift */; };
+		F6958F281E1202220042BE02 /* AddPlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6958F271E1202220042BE02 /* AddPlayerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F64A6B281E260CBA007327C4 /* AdjustController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustController.swift; sourceTree = "<group>"; };
+		F64B5EFE1E134C0D004B6CDB /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		F64B5F001E136C02004B6CDB /* GamePlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePlayerCell.swift; sourceTree = "<group>"; };
 		F6958EF01E11378D0042BE02 /* PokerChipz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokerChipz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6958EF31E11378D0042BE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6958EF51E11378D0042BE02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,10 @@
 		F6958F0F1E11378D0042BE02 /* PokerChipzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokerChipzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6958F131E11378D0042BE02 /* PokerChipzUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokerChipzUITests.swift; sourceTree = "<group>"; };
 		F6958F151E11378D0042BE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6958F211E1138C90042BE02 /* CreateGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGameController.swift; sourceTree = "<group>"; };
+		F6958F231E1138D40042BE02 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F6958F251E1138DF0042BE02 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F6958F271E1202220042BE02 /* AddPlayerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPlayerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,14 @@
 			children = (
 				F6958EF31E11378D0042BE02 /* AppDelegate.swift */,
 				F6958EF51E11378D0042BE02 /* ViewController.swift */,
+				F64B5EFE1E134C0D004B6CDB /* GameController.swift */,
+				F6958F211E1138C90042BE02 /* CreateGameController.swift */,
+				F6958F231E1138D40042BE02 /* Game.swift */,
+				F6958F251E1138DF0042BE02 /* Player.swift */,
 				F6958EF71E11378D0042BE02 /* Main.storyboard */,
+				F64A6B281E260CBA007327C4 /* AdjustController.swift */,
+				F64B5F001E136C02004B6CDB /* GamePlayerCell.swift */,
+				F6958F271E1202220042BE02 /* AddPlayerCell.swift */,
 				F6958EFA1E11378D0042BE02 /* Assets.xcassets */,
 				F6958EFC1E11378D0042BE02 /* LaunchScreen.storyboard */,
 				F6958EFF1E11378D0042BE02 /* Info.plist */,
@@ -193,6 +214,7 @@
 				TargetAttributes = {
 					F6958EEF1E11378B0042BE02 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9U2WW96W28;
 						ProvisioningStyle = Automatic;
 					};
 					F6958F031E11378D0042BE02 = {
@@ -261,6 +283,13 @@
 			files = (
 				F6958EF61E11378D0042BE02 /* ViewController.swift in Sources */,
 				F6958EF41E11378D0042BE02 /* AppDelegate.swift in Sources */,
+				F6958F221E1138C90042BE02 /* CreateGameController.swift in Sources */,
+				F64A6B291E260CBA007327C4 /* AdjustController.swift in Sources */,
+				F6958F261E1138DF0042BE02 /* Player.swift in Sources */,
+				F6958F281E1202220042BE02 /* AddPlayerCell.swift in Sources */,
+				F6958F241E1138D40042BE02 /* Game.swift in Sources */,
+				F64B5F011E136C02004B6CDB /* GamePlayerCell.swift in Sources */,
+				F64B5EFF1E134C0D004B6CDB /* GameController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +441,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9U2WW96W28;
 				INFOPLIST_FILE = PokerChipz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UnifyIdChallenge.PokerChipz;
+				PRODUCT_BUNDLE_IDENTIFIER = dankmemrs.PokerChipz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,9 +458,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9U2WW96W28;
 				INFOPLIST_FILE = PokerChipz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = UnifyIdChallenge.PokerChipz;
+				PRODUCT_BUNDLE_IDENTIFIER = dankmemrs.PokerChipz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -505,6 +542,7 @@
 				F6958F1A1E11378D0042BE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6958F1B1E11378D0042BE02 /* Build configuration list for PBXNativeTarget "PokerChipzTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +551,7 @@
 				F6958F1D1E11378D0042BE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6958F1E1E11378D0042BE02 /* Build configuration list for PBXNativeTarget "PokerChipzUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +560,7 @@
 				F6958F201E11378D0042BE02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
