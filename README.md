@@ -1,2 +1,0 @@
-# PokerChipz
-Poker Game Helper
